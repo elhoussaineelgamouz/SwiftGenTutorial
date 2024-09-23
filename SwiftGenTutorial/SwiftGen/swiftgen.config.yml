@@ -1,11 +1,21 @@
 input_dir: ${PROJECT_DIR}/SwiftGenTutorial
-output_dir: ${PROJECT_DIR}/SwiftGenTutorial/SwiftGenConfig
+output_dir: ${PROJECT_DIR}/SwiftGenTutorial/SwiftGen
+strings:
+  inputs: Sources/fr.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Strings.swift
+ib:
+  inputs: Sources/storyboards
+  outputs:
+    - templateName: scenes-swift5
+      output: Storyboard Scenes.swift
 xcassets:
   inputs:
     - Assets.xcassets
     - Colors.xcassets
   outputs:
-    - templatePath: ${PROJECT_DIR}/SwiftGenTutorial/SwiftGenConfig/template.stencil
+    - templatePath: ${PROJECT_DIR}/SwiftGenTutorial/SwiftGen/template.stencil
       params:
         publicAccess: true
       output: Assets.generated.swift

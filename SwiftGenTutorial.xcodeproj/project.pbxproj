@@ -16,6 +16,15 @@
 		10180E042C6397880042C005 /* SwiftGenTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10180E032C6397880042C005 /* SwiftGenTutorialTests.swift */; };
 		10180E0E2C6397880042C005 /* SwiftGenTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10180E0D2C6397880042C005 /* SwiftGenTutorialUITests.swift */; };
 		10180E102C6397880042C005 /* SwiftGenTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10180E0F2C6397880042C005 /* SwiftGenTutorialUITestsLaunchTests.swift */; };
+		10180E1D2C6397DE0042C005 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10180E1C2C6397DE0042C005 /* Colors.xcassets */; };
+		10180E202C6398250042C005 /* swiftgen.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 10180E1F2C6398250042C005 /* swiftgen.config.yml */; };
+		10180E222C6398570042C005 /* template.stencil in Sources */ = {isa = PBXBuildFile; fileRef = 10180E212C6398570042C005 /* template.stencil */; };
+		10180E242C63988C0042C005 /* Assets.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10180E232C63988C0042C005 /* Assets.generated.swift */; };
+		10EDE95D2C64BAA1004F6751 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EDE95C2C64BAA1004F6751 /* Strings.swift */; };
+		10EDE9602C64BC0D004F6751 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10EDE9622C64BC0D004F6751 /* Localizable.strings */; };
+		10EDE96E2C64D2A0004F6751 /* userLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EDE96D2C64D2A0004F6751 /* userLogin.storyboard */; };
+		10EDE9722C64D39A004F6751 /* Storyboard Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EDE9702C64D39A004F6751 /* Storyboard Scenes.swift */; };
+		10EDE9752C64D3F3004F6751 /* UserCamand.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EDE9742C64D3F3004F6751 /* UserCamand.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +49,28 @@
 		10180DEC2C6397870042C005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10180DEE2C6397870042C005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		10180DF02C6397870042C005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		10180DF32C6397870042C005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10180DF52C6397880042C005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10180DF82C6397880042C005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10180DFA2C6397880042C005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10180DFF2C6397880042C005 /* SwiftGenTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGenTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10180E032C6397880042C005 /* SwiftGenTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenTutorialTests.swift; sourceTree = "<group>"; };
 		10180E092C6397880042C005 /* SwiftGenTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGenTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10180E0D2C6397880042C005 /* SwiftGenTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenTutorialUITests.swift; sourceTree = "<group>"; };
 		10180E0F2C6397880042C005 /* SwiftGenTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10180E1C2C6397DE0042C005 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		10180E1F2C6398250042C005 /* swiftgen.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.config.yml; sourceTree = "<group>"; };
+		10180E212C6398570042C005 /* template.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = template.stencil; sourceTree = "<group>"; };
+		10180E232C63988C0042C005 /* Assets.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.generated.swift; sourceTree = "<group>"; };
+		10EDE95C2C64BAA1004F6751 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		10EDE9612C64BC0D004F6751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10EDE9632C64BCEE004F6751 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		10EDE9642C64BCEE004F6751 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		10EDE9652C64BCEF004F6751 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10EDE9662C64BD50004F6751 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10EDE9672C64BD51004F6751 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10EDE9682C64BFE6004F6751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		10EDE96D2C64D2A0004F6751 /* userLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = userLogin.storyboard; sourceTree = "<group>"; };
+		10EDE9702C64D39A004F6751 /* Storyboard Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard Scenes.swift"; sourceTree = "<group>"; };
+		10EDE9742C64D3F3004F6751 /* UserCamand.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserCamand.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,8 @@
 		10180DEB2C6397870042C005 /* SwiftGenTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				10EDE9692C64CC95004F6751 /* Sources */,
+				10180E1E2C63980C0042C005 /* SwiftGen */,
 				10180DEC2C6397870042C005 /* AppDelegate.swift */,
 				10180DEE2C6397870042C005 /* SceneDelegate.swift */,
 				10180DF02C6397870042C005 /* ViewController.swift */,
@@ -106,6 +130,7 @@
 				10180DF52C6397880042C005 /* Assets.xcassets */,
 				10180DF72C6397880042C005 /* LaunchScreen.storyboard */,
 				10180DFA2C6397880042C005 /* Info.plist */,
+				10180E1C2C6397DE0042C005 /* Colors.xcassets */,
 			);
 			path = SwiftGenTutorial;
 			sourceTree = "<group>";
@@ -127,6 +152,36 @@
 			path = SwiftGenTutorialUITests;
 			sourceTree = "<group>";
 		};
+		10180E1E2C63980C0042C005 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				10EDE9702C64D39A004F6751 /* Storyboard Scenes.swift */,
+				10180E1F2C6398250042C005 /* swiftgen.config.yml */,
+				10180E212C6398570042C005 /* template.stencil */,
+				10180E232C63988C0042C005 /* Assets.generated.swift */,
+				10EDE95C2C64BAA1004F6751 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		10EDE9692C64CC95004F6751 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				10EDE96F2C64D2E9004F6751 /* storyboards */,
+				10EDE9622C64BC0D004F6751 /* Localizable.strings */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		10EDE96F2C64D2E9004F6751 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				10EDE96D2C64D2A0004F6751 /* userLogin.storyboard */,
+				10EDE9742C64D3F3004F6751 /* UserCamand.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10180E132C6397880042C005 /* Build configuration list for PBXNativeTarget "SwiftGenTutorial" */;
 			buildPhases = (
+				10180E252C6398A40042C005 /* Swift Gen */,
 				10180DE52C6397870042C005 /* Sources */,
 				10180DE62C6397870042C005 /* Frameworks */,
 				10180DE72C6397870042C005 /* Resources */,
@@ -212,6 +268,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 				Base,
 			);
 			mainGroup = 10180DE02C6397870042C005;
@@ -232,8 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				10180DF92C6397880042C005 /* LaunchScreen.storyboard in Resources */,
+				10EDE9602C64BC0D004F6751 /* Localizable.strings in Resources */,
+				10180E202C6398250042C005 /* swiftgen.config.yml in Resources */,
+				10180E1D2C6397DE0042C005 /* Colors.xcassets in Resources */,
 				10180DF62C6397880042C005 /* Assets.xcassets in Resources */,
 				10180DF42C6397870042C005 /* Main.storyboard in Resources */,
+				10EDE96E2C64D2A0004F6751 /* userLogin.storyboard in Resources */,
+				10EDE9752C64D3F3004F6751 /* UserCamand.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +315,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10180E252C6398A40042C005 /* Swift Gen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Gen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftgen >& /dev/null; then\n  swiftgen config run --config SwiftGenTutorial/SwiftGen/swiftgen.config.yml\nelse\n  echo \"error: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10180DE52C6397870042C005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10180DF12C6397870042C005 /* ViewController.swift in Sources */,
+				10EDE9722C64D39A004F6751 /* Storyboard Scenes.swift in Sources */,
+				10180E222C6398570042C005 /* template.stencil in Sources */,
 				10180DED2C6397870042C005 /* AppDelegate.swift in Sources */,
 				10180DEF2C6397870042C005 /* SceneDelegate.swift in Sources */,
+				10EDE95D2C64BAA1004F6751 /* Strings.swift in Sources */,
+				10180E242C63988C0042C005 /* Assets.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +387,9 @@
 		10180DF22C6397870042C005 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				10180DF32C6397870042C005 /* Base */,
+				10EDE9632C64BCEE004F6751 /* fr */,
+				10EDE9662C64BD50004F6751 /* fr */,
+				10EDE9682C64BFE6004F6751 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,9 +397,19 @@
 		10180DF72C6397880042C005 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				10180DF82C6397880042C005 /* Base */,
+				10EDE9642C64BCEE004F6751 /* fr */,
+				10EDE9672C64BD51004F6751 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		10EDE9622C64BC0D004F6751 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EDE9612C64BC0D004F6751 /* en */,
+				10EDE9652C64BCEF004F6751 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +420,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -353,7 +453,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -384,6 +484,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -416,7 +517,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -439,9 +540,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGenTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,9 +569,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGenTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

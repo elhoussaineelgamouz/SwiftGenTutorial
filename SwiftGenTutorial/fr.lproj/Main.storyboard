@@ -23,16 +23,25 @@
                                     <constraint firstAttribute="height" constant="120" id="QSL-Rt-36X"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opc-kj-lEi">
+                                <rect key="frame" x="175.66666666666666" y="538.66666666666663" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0h7-Ne-geS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Moh-k8-l77"/>
+                            <constraint firstItem="opc-kj-lEi" firstAttribute="top" secondItem="0h7-Ne-geS" secondAttribute="bottom" constant="40" id="Syy-Mv-Vj4"/>
+                            <constraint firstItem="opc-kj-lEi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zte-9L-b1Y"/>
                             <constraint firstItem="0h7-Ne-geS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="wJE-3u-9gC"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="lionImageView" destination="0h7-Ne-geS" id="LfS-8p-Sas"/>
+                        <outlet property="welcomeMessage" destination="opc-kj-lEi" id="WRY-94-7C8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
